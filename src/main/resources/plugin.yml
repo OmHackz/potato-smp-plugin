@@ -1,0 +1,6 @@
+name: PotatoStats
+version: 1.0.0
+main: dev.potatosmp.potato_stats.PotatoStatsPlugin
+api-version: '26.3'
+description: Collects server stats and pushes to the PotatoSMP website API.
+author: potato-smp

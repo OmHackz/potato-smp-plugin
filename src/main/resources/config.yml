@@ -1,0 +1,22 @@
+# PotatoStats configuration
+# Edit these values, then restart the server (or run /potatostats reload).
+
+server-id: "potatosmp"
+
+push:
+  # Send batched stats to the website's REST API.
+  enabled: true
+  url: "https://potato-smp.pages.dev/api/collect"
+  secret: "change-me"           # must match the website's API_SECRET
+  interval-seconds: 30          # how often to flush the event buffer
+  flush-max-events: 1000        # max events per HTTP batch
+
+# Optional read-only HTTP server the website can poll for live stats.
+# Disabled by default so the push path is the only one active.
+http:
+  enabled: false
+  port: 8790
+
+# Per-player counters are written here so restarts don't lose data.
+data:
+  dir: "plugins/PotatoStats/data"
