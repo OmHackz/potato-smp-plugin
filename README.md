@@ -4,7 +4,7 @@ A **Paper 26.3** Minecraft plugin that collects server/player events and pushes 
 
 ## Badges
 
-[![CI build](https://img.shields.io/github/actions/workflow/status/OmHackz/potato-smp-plugin/ci.yml?branch=master&label=build)](https://github.com/OmHackz/potato-smp-plugin/actions/workflows/ci.yml)
+[![CI build](https://img.shields.io/github/actions/workflow/status/OmHackz/potato-smp-plugin/ci.yml?branch=main&label=build)](https://github.com/OmHackz/potato-smp-plugin/actions/workflows/ci.yml)
 [![Paper 26.3](https://img.shields.io/badge/Paper-26.3-blue?logo=minecraft)](https://papermc.io/)
 [![Java 25](https://img.shields.io/badge/Java-25-orange?logo=java)](https://adoptium.net/)
 [![api-version 26.3](https://img.shields.io/badge/api--version-26.3-purple)](https://papermc.io/)
